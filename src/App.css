@@ -1,0 +1,60 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+form{
+  position: absolute;
+  top: 5%;
+}
+input{
+  height: 40px;
+  width: 300px;
+  border-radius: 25px  0 0 25px;
+ 
+  outline: none;
+  border: 1px solid rgb(203, 200, 200);
+  background-color: rgb(242, 239, 239);
+  padding: 5px 20px;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+button{
+  border-radius: 0 25px  25px 0;
+  background-color: rgb(32, 145, 244);
+  color: white;
+  height: 40px;
+  font-size: 20px;
+  width: 90px;
+  border: none;
+  padding-right: 10px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.movie-container{
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  
+ 
+}
+.movie-card{
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ margin: 20px;
+ border-radius: 10px;
+}
+img{
+  width: 200px;
+  border-radius: 10px 10px 0 0;
+}
+.movie-details{
+  padding: 10px;
+}
